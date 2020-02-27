@@ -1,0 +1,62 @@
+.about{
+    padding-bottom: 100px;
+    a {
+        font-family: inherit;
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.about__img{
+    width: 371px;
+    height: 421px;
+    background-color: $white;
+    border-bottom: 10px solid $red;
+    border-left: 10px solid $red;
+    margin-right: 130px;
+}
+
+.about__img-inner{
+    background-color: $white;
+    border-bottom: 10px solid $gray;
+    border-left: 10px solid $gray;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.about__pic{
+    width: 232px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    }
+
+    .about__descr{
+        width: 567px;
+        line-height: 1.6rem;
+    }
+
+.about__main{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 2rem;
+    color: $dark-gray;
+    margin-bottom: 26px;
+}
+
+.about_main-text{
+    @include main-text;
+}
+
+.about__table{
+    margin: 38px 0 40px;
+    height: 190px;    
+}
+
+.about__table__width{
+    width: 170px;
+}

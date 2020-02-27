@@ -1,0 +1,61 @@
+.service-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__item{
+        width: 371px;
+        padding: 30px 25px;
+
+        font-size: 1rem;
+
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 29px;
+        cursor: pointer;
+        transition: all .3s ease;
+        &:hover{
+            box-shadow: 0px 5px 5px 0px rgba(164,164,164,1);
+        }
+        
+        &:hover .service-content__circ {
+            background-color: $red;
+        }
+
+        &:hover svg{
+            stroke: #fefefe;
+            fill: #fefefe;
+        }
+    }
+
+    &__circ{
+        width: 61px;
+        height: 61px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        transition: all .3s linear;
+    }
+
+    &__title{
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 23px;
+    }
+
+    &__text{
+       text-align: center; 
+    }
+}
+
+.service-icon{
+    width: 21px;
+    height: 21px;
+    fill: $red;
+    transition: all .3s linear;    
+}

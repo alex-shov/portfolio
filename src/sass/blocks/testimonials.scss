@@ -1,0 +1,49 @@
+.slider {
+    width: 570px;
+    margin: 0 auto 48px;
+    padding: 81px 36px 50px;
+
+    text-align: center;
+    background-color: #e2e2e2;
+
+    &__title {
+        font-family: 'Montserrat', sans-serif;
+        color: $dark-gray;
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    &__subtitle {
+        font-size: 1rem;
+        color: $main-text;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        line-height: 1.6rem;
+    }
+
+    &__dots {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__dot {
+        width: 26px;
+        height: 11px;
+        margin: 0 15px;
+        display: inline-block;
+        background-color: #7F7F7F;
+        border-radius: 5px;
+        cursor: pointer;
+        &--active {
+            background-color: $red;
+        }
+    }
+
+    
+
+
+}

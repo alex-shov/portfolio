@@ -1,0 +1,29 @@
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    &__hello{
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+    }
+    &__iam{
+        font-size: 4rem;
+        font-weight: 600;
+        color: $red;
+
+        margin-bottom: 23px;
+    }
+    &__develop{
+        font-size: 1.6rem;
+        margin-bottom: 44px;
+        line-height: 2.4rem;
+    }
+  
+    }
+
+    .mr{
+        margin-right: 29px;
+    }

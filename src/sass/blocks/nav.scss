@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+
+    &__item {
+        list-style: none;
+        margin-left: 39px;
+    }
+    &__link{
+        font-size: 1rem;
+        line-height: 6px;
+        color: #666;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        transition: all .3s ease;
+        &:hover{
+            color: $red;
+        }
+    }
+}
+
+.humburger{
+    display: none;
+}

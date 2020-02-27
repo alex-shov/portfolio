@@ -1,0 +1,39 @@
+.blog-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    &__item {
+        width: 371px;
+        background-color: #e2e2e2;
+        padding-bottom: 50px;
+        overflow: hidden;
+        transition: all .3s linear;
+        &:hover{
+            box-shadow: 0px 5px 5px 0px rgba(164,164,164,1);   
+        }
+    }
+
+    &__img {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    &__title {
+        color: $dark-gray;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0 39px 30px;
+        line-height: 2.2rem;
+    }
+
+    &__text {
+        text-align: center;
+        margin: 0 39px 49px;
+        line-height: 1.6rem;
+    }
+
+}
