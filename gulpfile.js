@@ -71,4 +71,4 @@ function clean (){
 gulp.task('clean', clean)
 
 // gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'icons', 'html', 'images'));
-gulp.task('default', gulp.series(clean, gulp.parallel('watch', 'server', 'styles', 'scripts', 'icons', 'html', 'images')));
+gulp.task('default', gulp.series(clean, gulp.parallel('watch', 'server', 'scripts', 'images', 'icons', 'styles',  'html')));
