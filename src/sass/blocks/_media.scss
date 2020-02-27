@@ -74,12 +74,6 @@
     .contacts-content__item {
         font-size: 1rem;
     }
-
-
-
-
-
-
 }
 
 
@@ -213,19 +207,29 @@
     }
 }
 
-@media(max-width: 580px) {
-    .header-img {
-        width: 50%;
+@media(max-width: 688px){
+    .contacts-content__items{
+        display: none;
     }
 
-    .header-text {
-        margin-left: 30px;
+    .container-part__title{
+        font-size: 1.8rem;
+    }
 
-        &__iam {
-            font-size: 2.2rem;
-        }
+    .contacts-content__btn-trans{
+        display: block; 
+        margin: 10px auto;
+    }
+
+    .title{
+        margin: 60px 0;
+    }
+
+    .title__line-gray{
+        margin-bottom: 50px;
     }
 }
+
 
 @media(max-width: 620px) {
     .header-text {
@@ -274,20 +278,34 @@
     .blog-content__item{
         width: 80%;
         margin-bottom: 30px;
+    }   
+}
+
+@media(max-width: 580px) {
+    .header-img {
+        width: 50%;
     }
 
-    .contacts-content__items{
-        display: none;
-    }
+    .header-text {
+        margin-left: 30px;
 
-    .contacts-content__btn-trans{
-        display: block; 
-        margin: 10px auto;
+        &__iam {
+            font-size: 2.2rem;
+        }
     }
 }
 
-
 @media(max-width: 560px) {
+    .slider{
+        width: 100%;
+    margin: 0 auto 48px;
+    padding: 81px 36px 50px;
+    }
+
+    .title{
+        margin: 111px 0;
+    }
+
     .header-text {
         &__iam {
             font-size: 2rem;
@@ -297,4 +315,64 @@
             font-size: 1.5rem;
         }
     }
+}
+
+@media(max-width: 490px){
+
+     .header-text__hello{
+        font-size: 1rem;
+    }
+
+    .header-text__iam{
+        font-size: 1.2rem;
+        line-height: 1;
+        line-height: 1.5;
+    }
+
+    .header-text__develop{
+        font-size: 0.8rem;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    .header-text .btn-trans{
+        font-size: 1rem;
+        width: 120px;
+        height: 40px;
+    }
+
+    .header-img{
+        width: 50%;
+    }
+}
+
+@media(max-width: 385px){
+    .container-part__title{
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 350px){
+
+    .header-text__hello{
+        font-size: 0.8rem;
+    }
+
+    .header-text__iam{
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    .header-text__develop{
+        font-size: 0.7rem;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    .header-text .btn-trans{
+        font-size: 0.8rem;
+        width: 100px;
+        height: 35px;
+    }
+
 }
