@@ -146,7 +146,6 @@
         &__link {
             color: #fff;
         }
-
     }
 
     .humburger {
@@ -157,7 +156,6 @@
         width: 30px;
         display: block;
         height: 12px;
-        // z-index: 10;
 
         span {
             display: block;
@@ -372,8 +370,10 @@
         width: 50%;
     }
 
+    .freelancer-content{
+        display: block;
+    }
     .freelancer-text{
-        justify-content: center;
         width: 100%;
         text-align: center;
         align-items: center;
@@ -399,6 +399,10 @@
 @media(max-width: 385px) {
     .container-part__title {
         font-size: 1.7rem;
+    }
+
+    .freelancer-text__subtitle{
+        line-height: 1.5;
     }
 }
 
