@@ -219,6 +219,17 @@
             font-size: 2.4rem;
         }
     }
+
+    .freelancer-text{
+        &__title{
+            font-size: 2rem;
+            line-height: 1.5;
+        }
+    }
+
+    .freelancer-text{
+        padding-left: 60px;
+    }
 }
 
 @media(max-width: 688px) {
@@ -306,6 +317,13 @@
             font-size: 2.2rem;
         }
     }
+
+    .freelancer-content .btn-trans{
+        width: 150px;
+        height: 40px;
+        font-size: 1rem;
+
+    }
 }
 
 @media(max-width: 560px) {
@@ -352,6 +370,28 @@
 
     .header-img {
         width: 50%;
+    }
+
+    .freelancer-text{
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding-left: 0;
+
+        &__title{
+            font-size: 2.1rem;
+            line-height: 1.5;
+        }
+
+        &__subtitle{
+            font-size: 0.9rem;
+            line-height: 0.5;
+        }
+    }
+
+    .freelancer-btn .btn-trans{
+        display: none;
     }
 }
 
